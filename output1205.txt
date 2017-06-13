@@ -1,0 +1,9 @@
+x_train shape: (50000L, 32L, 32L, 3L)
+50000 train samples
+10000 test samples
+finish modeling
+finish compile
+Using real-time data augmentation.
+finish 3
+
+['nvcc', '-shared', '-O3', '-arch=sm_20', '-Xlinker', '/DEBUG', '-D HAVE_ROUND', '-m64', '-Xcompiler', '-DCUDA_NDARRAY_CUH=c72d035fdf91890f3b36710688069b2e,-DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION,/Zi,/MD', '-I"C:\\Users\\Yvonne\\AppData\\Local\\Theano\\compiledir_Windows-7-6.1.7601-SP1-Intel64_Family_6_Model_42_Stepping_7_GenuineIntel-2.7.13-64\\cuda_ndarray"', '-I"C:\\ProgramData\\Anaconda2\\lib\\site-packages\\numpy\\core\\include"', '-I"C:\\ProgramData\\Anaconda2\\include"', '-I"C:\\ProgramData\\Anaconda2\\lib\\site-packages\\theano\\gof"', '-I"C:\\ProgramData\\Anaconda2\\lib\\site-packages\\theano\\sandbox\\cuda"', '-L"C:\\Users\\Yvonne\\AppData\\Local\\Theano\\compiledir_Windows-7-6.1.7601-SP1-Intel64_Family_6_Model_42_Stepping_7_GenuineIntel-2.7.13-64\\cuda_ndarray"', '-L"C:\\ProgramData\\Anaconda2\\libs"', '-L"C:\\ProgramData\\Anaconda2"', '-o', 'C:\\Users\\Yvonne\\AppData\\Local\\Theano\\compiledir_Windows-7-6.1.7601-SP1-Intel64_Family_6_Model_42_Stepping_7_GenuineIntel-2.7.13-64\\tmpoby4wm\\89463c17e8288f89b3faa2a74fe4a426.pyd', 'mod.cu', '-lcudart', '-lcublas', '-lcuda_ndarray', '-lpython27']
